@@ -1,0 +1,15 @@
+//
+// Created by boil on 18-8-23.
+//
+
+// the configured options and settings for Tutorial
+#define VERSION_MAJOR @VERSION_MAJOR@
+#define VERSION_MINOR @VERSION_MINOR@
+
+// 内存分配器
+#cmakedefine USE_JEMALLOC
+#cmakedefine USE_TCMALLOC
+
+// 该平台是否提供 exp 和 log 函数?
+#cmakedefine HAVE_LOG
+#cmakedefine HAVE_EXP
