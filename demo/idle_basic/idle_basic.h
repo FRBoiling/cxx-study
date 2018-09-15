@@ -12,10 +12,10 @@ class IdleBasic {
 public:
     IdleBasic();
 
-    virtual ~IdleBasic();
+    ~IdleBasic();
 
 public:
-    void run();
+    void Run();
 
 public:
     static int64_t counter;

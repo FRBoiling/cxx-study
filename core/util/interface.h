@@ -2,12 +2,15 @@
 // Created by boil on 18-8-23.
 //
 
-#ifndef _INTERFACE_H
-#define _INTERFACE_H
+#ifndef BOIL_INTERFACE_H
+#define BOIL_INTERFACE_H
+
+namespace boil {
 
 #define interface class
 #define default public
 #define implements public
 
+}
 
-#endif //_INTERFACE_H
+#endif //BOIL_INTERFACE_H

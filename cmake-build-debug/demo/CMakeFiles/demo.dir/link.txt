@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdemo.a  
+/usr/bin/ranlib libdemo.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuvcat.a  CMakeFiles/uvcat.dir/uv_cat.cpp.o
+/usr/bin/ranlib libuvcat.a

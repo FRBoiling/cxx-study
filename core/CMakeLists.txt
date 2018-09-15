@@ -1,6 +1,6 @@
-#cmake_minimum_required(VERSION 3.12)
-#
-#set(CMAKE_CXX_STANDARD 14)
+cmake_minimum_required(VERSION 3.12)
+
+set(CMAKE_CXX_STANDARD 14)
 
 aux_source_directory(. DIR_CORE)
 
@@ -12,9 +12,16 @@ configure_file(
 include_directories("${PROJECT_BINARY_DIR}/core")
 
 add_subdirectory(network)
+add_subdirectory(log)
+add_subdirectory(util)
+
+#set(DIR_UTIL util)
+#include_directories(${DIR_UTIL})
 
 # 生成链接库
 add_library (core ${DIR_CORE})
 
 # 添加链接库
 target_link_libraries(core network)
+target_link_libraries(core log)
+target_link_libraries(core util)

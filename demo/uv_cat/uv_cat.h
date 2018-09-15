@@ -2,18 +2,17 @@
 // Created by boil on 18-8-28.
 //
 
-#ifndef BOIL_STUDY_UVCAT_H
-#define BOIL_STUDY_UVCAT_H
+#ifndef _UVCAT_H
+#define _UVCAT_H
 
 #include "uv_define.h"
 
-class uv_cat {
+class UvCat {
 public:
-
     const char* path;
-    void run();
+    void Run();
 
-public:
+private:
     static void on_open(uv_fs_t *req);
     static void on_close(uv_fs_t *req);
 
@@ -22,4 +21,4 @@ public:
 };
 
 
-#endif //BOIL_STUDY_UVCAT_H
+#endif //_UVCAT_H

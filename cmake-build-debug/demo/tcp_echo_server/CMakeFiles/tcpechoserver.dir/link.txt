@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtcpechoserver.a  CMakeFiles/tcpechoserver.dir/tcp_echo_server.cc.o
+/usr/bin/ranlib libtcpechoserver.a

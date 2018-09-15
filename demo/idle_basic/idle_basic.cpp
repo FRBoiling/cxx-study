@@ -19,7 +19,7 @@ void IdleBasic::wait_for_a_while(uv_idle_t *handle) {
         uv_idle_stop(handle);
 }
 
-void IdleBasic::run() {
+void IdleBasic::Run() {
     uv_idle_t idler;
 
     uv_idle_init(uv_default_loop(), &idler);

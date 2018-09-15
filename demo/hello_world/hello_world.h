@@ -10,10 +10,7 @@
 
 class HelloWorld {
 public:
-    HelloWorld();
-    virtual ~HelloWorld();
-public:
-    void run();
+    void Run();
 };
 
 

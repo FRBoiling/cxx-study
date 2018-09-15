@@ -1,0 +1,2 @@
+/usr/bin/ar qc libidlebasic.a  CMakeFiles/idlebasic.dir/idle_basic.cpp.o
+/usr/bin/ranlib libidlebasic.a

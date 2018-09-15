@@ -2,9 +2,14 @@
 // Created by boil on 18-8-23.
 //
 
-#ifndef _ABSTRACT_H
-#define _ABSTRACT_H
+#ifndef BOIL_ABSTRACT_H
+#define BOIL_ABSTRACT_H
+
+namespace boil {
 
 #define abstract public
 
-#endif //_ABSTRACT_H
+}
+
+
+#endif //BOIL_ABSTRACT_H

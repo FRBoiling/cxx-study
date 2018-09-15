@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuvtee.a  CMakeFiles/uvtee.dir/uv_tee.cpp.o
+/usr/bin/ranlib libuvtee.a

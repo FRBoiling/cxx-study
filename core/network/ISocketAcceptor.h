@@ -5,7 +5,7 @@
 #ifndef _I_SOCKET_ACCEPTOR_H
 #define _I_SOCKET_ACCEPTOR_H
 
-#include "../util/interface.h"
+#include "interface.h"
 
 interface ISocketAcceptor {
 public:

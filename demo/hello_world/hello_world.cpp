@@ -4,15 +4,7 @@
 
 #include "hello_world.h"
 
-HelloWorld::HelloWorld() {
-
-}
-
-HelloWorld::~HelloWorld() {
-
-}
-
-void HelloWorld::run() {
+void HelloWorld::Run() {
     uv_loop_t *loop = (uv_loop_t *) malloc(sizeof(uv_loop_t));
     uv_loop_init(loop);
 

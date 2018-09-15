@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="boil_study"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\zmalloc\;CMake Files\core\;CMake Files\core\network\;CMake Files\core\log\;CMake Files\core\util\;CMake Files\demo\;CMake Files\demo\hello_world\;CMake Files\demo\idle_basic\;CMake Files\demo\uv_cat\;CMake Files\demo\uv_tee\;CMake Files\demo\tcp_echo_server\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boil_study">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/boil_study" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 boil_study"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boil_study/fast">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/boil_study" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 boil_study/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zmalloc">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/zmalloc/libzmalloc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/zmalloc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/zmalloc/Makefile&quot;  VERBOSE=1 zmalloc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/zmalloc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/zmalloc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/zmalloc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zmalloc/fast">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/zmalloc/libzmalloc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/zmalloc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/zmalloc/Makefile&quot;  VERBOSE=1 zmalloc/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/zmalloc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/zmalloc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/zmalloc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/core/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/core"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/Makefile&quot;  VERBOSE=1 core"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core/fast">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/core/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/core"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/Makefile&quot;  VERBOSE=1 core/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/core/network/libnetwork.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/core/network"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/core"/>
+					<Add directory="/home/boil/CLionProjects/boil/core/network/../util"/>
+					<Add directory="/home/boil/CLionProjects/boil/core/network/../frame"/>
+					<Add directory="/home/boil/CLionProjects/boil/core/network/../log"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/network/Makefile&quot;  VERBOSE=1 network"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/network/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/network/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/network/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network/fast">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/core/network/libnetwork.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/core/network"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/core"/>
+					<Add directory="/home/boil/CLionProjects/boil/core/network/../util"/>
+					<Add directory="/home/boil/CLionProjects/boil/core/network/../frame"/>
+					<Add directory="/home/boil/CLionProjects/boil/core/network/../log"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/network/Makefile&quot;  VERBOSE=1 network/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/network/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/network/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/network/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="log">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/core/log/liblog.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/core/log"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/core"/>
+					<Add directory="/home/boil/CLionProjects/boil/core/log/../util"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/log/Makefile&quot;  VERBOSE=1 log"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/log/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/log/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/log/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="log/fast">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/core/log/liblog.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/core/log"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/core"/>
+					<Add directory="/home/boil/CLionProjects/boil/core/log/../util"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/log/Makefile&quot;  VERBOSE=1 log/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/log/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/log/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/log/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/core/util/libutil.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/core/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/core"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/util/Makefile&quot;  VERBOSE=1 util"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util/fast">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/core/util/libutil.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/core/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/core"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/util/Makefile&quot;  VERBOSE=1 util/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/core/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/demo/libdemo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/demo"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/demo"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/Makefile&quot;  VERBOSE=1 demo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo/fast">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/demo/libdemo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/demo"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/demo"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/Makefile&quot;  VERBOSE=1 demo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/demo/hello_world/libhelloworld.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/demo/hello_world"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/demo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/hello_world/Makefile&quot;  VERBOSE=1 helloworld"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/hello_world/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/hello_world/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/hello_world/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld/fast">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/demo/hello_world/libhelloworld.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/demo/hello_world"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/demo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/hello_world/Makefile&quot;  VERBOSE=1 helloworld/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/hello_world/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/hello_world/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/hello_world/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="idlebasic">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/demo/idle_basic/libidlebasic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/demo/idle_basic"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/demo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/idle_basic/Makefile&quot;  VERBOSE=1 idlebasic"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/idle_basic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/idle_basic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/idle_basic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="idlebasic/fast">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/demo/idle_basic/libidlebasic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/demo/idle_basic"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/demo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/idle_basic/Makefile&quot;  VERBOSE=1 idlebasic/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/idle_basic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/idle_basic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/idle_basic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uvcat">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_cat/libuvcat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_cat"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/demo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_cat/Makefile&quot;  VERBOSE=1 uvcat"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_cat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_cat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_cat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uvcat/fast">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_cat/libuvcat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_cat"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/demo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_cat/Makefile&quot;  VERBOSE=1 uvcat/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_cat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_cat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_cat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uvtee">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_tee/libuvtee.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_tee"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/demo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_tee/Makefile&quot;  VERBOSE=1 uvtee"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_tee/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_tee/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_tee/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uvtee/fast">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_tee/libuvtee.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_tee"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/demo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_tee/Makefile&quot;  VERBOSE=1 uvtee/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_tee/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_tee/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/uv_tee/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpechoserver">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/demo/tcp_echo_server/libtcpechoserver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/demo/tcp_echo_server"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/demo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/tcp_echo_server/Makefile&quot;  VERBOSE=1 tcpechoserver"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/tcp_echo_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/tcp_echo_server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/tcp_echo_server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpechoserver/fast">
+				<Option output="/home/boil/CLionProjects/boil/cmake-build-debug/demo/tcp_echo_server/libtcpechoserver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boil/CLionProjects/boil/cmake-build-debug/demo/tcp_echo_server"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug"/>
+					<Add directory="/home/boil/CLionProjects/boil/define"/>
+					<Add directory="/home/boil/CLionProjects/boil/zmalloc"/>
+					<Add directory="/home/boil/CLionProjects/boil/cmake-build-debug/demo"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/tcp_echo_server/Makefile&quot;  VERBOSE=1 tcpechoserver/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/tcp_echo_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/tcp_echo_server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/boil/CLionProjects/boil/cmake-build-debug/demo/tcp_echo_server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/boil/CLionProjects/boil/core/core.h">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/log/Log.cc">
+			<Option target="log"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/log/Log.h">
+			<Option target="log"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/AcceptorService.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/AcceptorService.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/ConnectionElement.cc">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/ConnectionElement.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/ConnectorService.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/ConnectorService.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/EventLoop.cc">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/EventLoop.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/SocketAddr.cc">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/SocketAddr.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/TcpAcceptor.cc">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/TcpAcceptor.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/TcpConnection.cc">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/TcpConnection.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/TcpServer.cc">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/TcpServer.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/TimerWheel.cc">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/TimerWheel.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/util/Timer.cc">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/util/Timer.h">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/demo.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/hello_world/hello_world.cpp">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/hello_world/hello_world.h">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/idle_basic/idle_basic.cpp">
+			<Option target="idlebasic"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/idle_basic/idle_basic.h">
+			<Option target="idlebasic"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/tcp_echo_server/tcp_echo_server.cc">
+			<Option target="tcpechoserver"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/tcp_echo_server/tcp_echo_server.h">
+			<Option target="tcpechoserver"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/uv_cat/uv_cat.cpp">
+			<Option target="uvcat"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/uv_cat/uv_cat.h">
+			<Option target="uvcat"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/uv_tee/uv_tee.cpp">
+			<Option target="uvtee"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/uv_tee/uv_tee.h">
+			<Option target="uvtee"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/main.cpp">
+			<Option target="boil_study"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/zmalloc/zmalloc.c">
+			<Option target="zmalloc"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/zmalloc/zmalloc.h">
+			<Option target="zmalloc"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/main_config.h.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/zmalloc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zmalloc\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/zmalloc/zmalloc_config.h.in">
+			<Option virtualFolder="CMake Files\zmalloc\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\core\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/core_config.h.in">
+			<Option virtualFolder="CMake Files\core\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/network/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\core\network\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/log/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\core\log\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/core/util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\core\util\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\demo\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/demo_config.h.in">
+			<Option virtualFolder="CMake Files\demo\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/hello_world/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\demo\hello_world\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/idle_basic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\demo\idle_basic\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/uv_cat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\demo\uv_cat\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/uv_tee/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\demo\uv_tee\"/>
+		</Unit>
+		<Unit filename="/home/boil/CLionProjects/boil/demo/tcp_echo_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\demo\tcp_echo_server\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

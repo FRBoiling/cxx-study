@@ -26,7 +26,7 @@ endif ()
 add_library (zmalloc ${DIR_ZMALLOC})
 
 if (USE_TCMALLOC)
-    #    TARGET_LINK_LIBRARIES(boil_study tcmalloc_minimal.so.4)
+    #    TARGET_LINK_LIBRARIES(boil tcmalloc_minimal.so.4)
 elseif (USE_JEMALLOC)
     TARGET_LINK_LIBRARIES(zmalloc jemalloc)
 endif ()
