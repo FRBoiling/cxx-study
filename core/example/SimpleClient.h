@@ -6,8 +6,7 @@
 #define _SIMPLECLIENT_H
 
 
-#include <util/interface.h>
-#include <frame/IService.h>
+#include "../serviceframe/IService.h"
 
 class SimpleClient : implements IService{
 public:

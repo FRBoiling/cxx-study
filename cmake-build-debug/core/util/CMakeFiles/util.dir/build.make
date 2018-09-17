@@ -57,27 +57,27 @@ include core/util/CMakeFiles/util.dir/progress.make
 # Include the compile flags for this target's objects.
 include core/util/CMakeFiles/util.dir/flags.make
 
-core/util/CMakeFiles/util.dir/Timer.cc.o: core/util/CMakeFiles/util.dir/flags.make
-core/util/CMakeFiles/util.dir/Timer.cc.o: ../core/util/Timer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object core/util/CMakeFiles/util.dir/Timer.cc.o"
-	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/util.dir/Timer.cc.o -c /home/boil/CLionProjects/boil/core/util/Timer.cc
+core/util/CMakeFiles/util.dir/util.cc.o: core/util/CMakeFiles/util.dir/flags.make
+core/util/CMakeFiles/util.dir/util.cc.o: ../core/util/util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object core/util/CMakeFiles/util.dir/util.cc.o"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/util.dir/util.cc.o -c /home/boil/CLionProjects/boil/core/util/util.cc
 
-core/util/CMakeFiles/util.dir/Timer.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/util.dir/Timer.cc.i"
-	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boil/CLionProjects/boil/core/util/Timer.cc > CMakeFiles/util.dir/Timer.cc.i
+core/util/CMakeFiles/util.dir/util.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/util.dir/util.cc.i"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boil/CLionProjects/boil/core/util/util.cc > CMakeFiles/util.dir/util.cc.i
 
-core/util/CMakeFiles/util.dir/Timer.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/util.dir/Timer.cc.s"
-	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boil/CLionProjects/boil/core/util/Timer.cc -o CMakeFiles/util.dir/Timer.cc.s
+core/util/CMakeFiles/util.dir/util.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/util.dir/util.cc.s"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boil/CLionProjects/boil/core/util/util.cc -o CMakeFiles/util.dir/util.cc.s
 
 # Object files for target util
 util_OBJECTS = \
-"CMakeFiles/util.dir/Timer.cc.o"
+"CMakeFiles/util.dir/util.cc.o"
 
 # External object files for target util
 util_EXTERNAL_OBJECTS =
 
-core/util/libutil.a: core/util/CMakeFiles/util.dir/Timer.cc.o
+core/util/libutil.a: core/util/CMakeFiles/util.dir/util.cc.o
 core/util/libutil.a: core/util/CMakeFiles/util.dir/build.make
 core/util/libutil.a: core/util/CMakeFiles/util.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libutil.a"

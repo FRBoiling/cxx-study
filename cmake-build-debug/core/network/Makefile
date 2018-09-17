@@ -152,6 +152,33 @@ AcceptorService.cpp.s:
 	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/network/CMakeFiles/network.dir/build.make core/network/CMakeFiles/network.dir/AcceptorService.cpp.s
 .PHONY : AcceptorService.cpp.s
 
+ArrayBuffer.o: ArrayBuffer.cc.o
+
+.PHONY : ArrayBuffer.o
+
+# target to build an object file
+ArrayBuffer.cc.o:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/network/CMakeFiles/network.dir/build.make core/network/CMakeFiles/network.dir/ArrayBuffer.cc.o
+.PHONY : ArrayBuffer.cc.o
+
+ArrayBuffer.i: ArrayBuffer.cc.i
+
+.PHONY : ArrayBuffer.i
+
+# target to preprocess a source file
+ArrayBuffer.cc.i:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/network/CMakeFiles/network.dir/build.make core/network/CMakeFiles/network.dir/ArrayBuffer.cc.i
+.PHONY : ArrayBuffer.cc.i
+
+ArrayBuffer.s: ArrayBuffer.cc.s
+
+.PHONY : ArrayBuffer.s
+
+# target to generate assembly for a file
+ArrayBuffer.cc.s:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/network/CMakeFiles/network.dir/build.make core/network/CMakeFiles/network.dir/ArrayBuffer.cc.s
+.PHONY : ArrayBuffer.cc.s
+
 ConnectionElement.o: ConnectionElement.cc.o
 
 .PHONY : ConnectionElement.o
@@ -232,6 +259,60 @@ EventLoop.s: EventLoop.cc.s
 EventLoop.cc.s:
 	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/network/CMakeFiles/network.dir/build.make core/network/CMakeFiles/network.dir/EventLoop.cc.s
 .PHONY : EventLoop.cc.s
+
+ListBuffer.o: ListBuffer.cc.o
+
+.PHONY : ListBuffer.o
+
+# target to build an object file
+ListBuffer.cc.o:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/network/CMakeFiles/network.dir/build.make core/network/CMakeFiles/network.dir/ListBuffer.cc.o
+.PHONY : ListBuffer.cc.o
+
+ListBuffer.i: ListBuffer.cc.i
+
+.PHONY : ListBuffer.i
+
+# target to preprocess a source file
+ListBuffer.cc.i:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/network/CMakeFiles/network.dir/build.make core/network/CMakeFiles/network.dir/ListBuffer.cc.i
+.PHONY : ListBuffer.cc.i
+
+ListBuffer.s: ListBuffer.cc.s
+
+.PHONY : ListBuffer.s
+
+# target to generate assembly for a file
+ListBuffer.cc.s:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/network/CMakeFiles/network.dir/build.make core/network/CMakeFiles/network.dir/ListBuffer.cc.s
+.PHONY : ListBuffer.cc.s
+
+Packet.o: Packet.cc.o
+
+.PHONY : Packet.o
+
+# target to build an object file
+Packet.cc.o:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/network/CMakeFiles/network.dir/build.make core/network/CMakeFiles/network.dir/Packet.cc.o
+.PHONY : Packet.cc.o
+
+Packet.i: Packet.cc.i
+
+.PHONY : Packet.i
+
+# target to preprocess a source file
+Packet.cc.i:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/network/CMakeFiles/network.dir/build.make core/network/CMakeFiles/network.dir/Packet.cc.i
+.PHONY : Packet.cc.i
+
+Packet.s: Packet.cc.s
+
+.PHONY : Packet.s
+
+# target to generate assembly for a file
+Packet.cc.s:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/network/CMakeFiles/network.dir/build.make core/network/CMakeFiles/network.dir/Packet.cc.s
+.PHONY : Packet.cc.s
 
 SocketAddr.o: SocketAddr.cc.o
 
@@ -380,6 +461,9 @@ help:
 	@echo "... AcceptorService.o"
 	@echo "... AcceptorService.i"
 	@echo "... AcceptorService.s"
+	@echo "... ArrayBuffer.o"
+	@echo "... ArrayBuffer.i"
+	@echo "... ArrayBuffer.s"
 	@echo "... ConnectionElement.o"
 	@echo "... ConnectionElement.i"
 	@echo "... ConnectionElement.s"
@@ -389,6 +473,12 @@ help:
 	@echo "... EventLoop.o"
 	@echo "... EventLoop.i"
 	@echo "... EventLoop.s"
+	@echo "... ListBuffer.o"
+	@echo "... ListBuffer.i"
+	@echo "... ListBuffer.s"
+	@echo "... Packet.o"
+	@echo "... Packet.i"
+	@echo "... Packet.s"
 	@echo "... SocketAddr.o"
 	@echo "... SocketAddr.i"
 	@echo "... SocketAddr.s"

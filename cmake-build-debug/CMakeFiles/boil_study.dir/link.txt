@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/boil_study.dir/main.cpp.o  -o boil_study zmalloc/libzmalloc.a core/libcore.a demo/libdemo.a -ljemalloc core/network/libnetwork.a core/log/liblog.a core/util/libutil.a demo/hello_world/libhelloworld.a demo/idle_basic/libidlebasic.a demo/uv_cat/libuvcat.a demo/uv_tee/libuvtee.a demo/tcp_echo_server/libtcpechoserver.a -luv 

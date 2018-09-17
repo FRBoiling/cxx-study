@@ -20,7 +20,7 @@ public:
     virtual void update(long dt) = 0;
 
 
-default:
+public:
     ServiceState *_state=new ServiceState();
 
     void setState(ServiceState *state) {

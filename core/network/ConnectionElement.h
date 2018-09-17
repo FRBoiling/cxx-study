@@ -1,14 +1,30 @@
 //
-// Created by boil on 18-9-13.
+// Created by boil on 18-9-17.
 //
 
-#ifndef _CONNECTIONELEMENT_H
-#define _CONNECTIONELEMENT_H
+#ifndef BOIL_CONNECTIONELEMENT_H
+#define BOIL_CONNECTIONELEMENT_H
 
+#include "TcpConnection.h"
 
-class ConnectionElement {
+namespace boil {
+    class ConnectionElement {
+    public:
+        ConnectionElement(std::shared_ptr<TcpConnection> connection)
+                : connection_(connection) {
 
-};
+        }
 
+        ~ConnectionElement() {
+            std::shared_ptr<TcpConnection> connection = connection_.lock();
+            if (connection) {
+                connection->onSocketClose();
+            }
+        }
 
-#endif //_CONNECTIONELEMENT_H
+    private:
+        std::weak_ptr<boil::TcpConnection> connection_;
+    };
+
+}
+#endif //BOIL_CONNECTIONELEMENT_H

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(boil_study)
+project(boil)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -39,7 +39,6 @@ include_directories("${PROJECT_BINARY_DIR}")
 SET(DIR_DEFINE define)
 include_directories(${DIR_DEFINE})
 
-
 SET(DIR_ZMALLOC zmalloc)
 include_directories(${DIR_ZMALLOC})
 add_subdirectory(${DIR_ZMALLOC})
@@ -50,11 +49,12 @@ add_subdirectory(${DIR_CORE})
 SET(DIR_DEMO demo)
 add_subdirectory(${DIR_DEMO})
 
-add_executable(boil_study main.cpp)
+add_executable(boil main.cpp)
 
-TARGET_LINK_LIBRARIES(boil_study zmalloc)
-TARGET_LINK_LIBRARIES(boil_study core)
-TARGET_LINK_LIBRARIES(boil_study demo)
+TARGET_LINK_LIBRARIES(boil zmalloc)
+TARGET_LINK_LIBRARIES(boil core)
+TARGET_LINK_LIBRARIES(boil demo)
+
 #TARGET_LINK_LIBRARIES(boil uv)
 
 #if (USE_TCMALLOC)

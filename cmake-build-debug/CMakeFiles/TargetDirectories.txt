@@ -1,6 +1,6 @@
 /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles/boil_study.dir
+/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles/boil.dir
 /home/boil/CLionProjects/boil/cmake-build-debug/zmalloc/CMakeFiles/rebuild_cache.dir
 /home/boil/CLionProjects/boil/cmake-build-debug/zmalloc/CMakeFiles/edit_cache.dir
 /home/boil/CLionProjects/boil/cmake-build-debug/zmalloc/CMakeFiles/zmalloc.dir
@@ -16,6 +16,12 @@
 /home/boil/CLionProjects/boil/cmake-build-debug/core/util/CMakeFiles/rebuild_cache.dir
 /home/boil/CLionProjects/boil/cmake-build-debug/core/util/CMakeFiles/edit_cache.dir
 /home/boil/CLionProjects/boil/cmake-build-debug/core/util/CMakeFiles/util.dir
+/home/boil/CLionProjects/boil/cmake-build-debug/core/example/CMakeFiles/rebuild_cache.dir
+/home/boil/CLionProjects/boil/cmake-build-debug/core/example/CMakeFiles/edit_cache.dir
+/home/boil/CLionProjects/boil/cmake-build-debug/core/example/CMakeFiles/example.dir
+/home/boil/CLionProjects/boil/cmake-build-debug/core/serviceframe/CMakeFiles/rebuild_cache.dir
+/home/boil/CLionProjects/boil/cmake-build-debug/core/serviceframe/CMakeFiles/edit_cache.dir
+/home/boil/CLionProjects/boil/cmake-build-debug/core/serviceframe/CMakeFiles/serviceframe.dir
 /home/boil/CLionProjects/boil/cmake-build-debug/demo/CMakeFiles/rebuild_cache.dir
 /home/boil/CLionProjects/boil/cmake-build-debug/demo/CMakeFiles/edit_cache.dir
 /home/boil/CLionProjects/boil/cmake-build-debug/demo/CMakeFiles/demo.dir

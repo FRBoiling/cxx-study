@@ -8,7 +8,7 @@
 namespace boil {
 
 #define interface class
-#define default public
+//#define default public
 #define implements public
 
 }

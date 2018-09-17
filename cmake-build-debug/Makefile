@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named boil_study
+# Target rules for targets named boil
 
 # Build rule for target.
-boil_study: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 boil_study
-.PHONY : boil_study
+boil: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 boil
+.PHONY : boil
 
 # fast build rule for target.
-boil_study/fast:
-	$(MAKE) -f CMakeFiles/boil_study.dir/build.make CMakeFiles/boil_study.dir/build
-.PHONY : boil_study/fast
+boil/fast:
+	$(MAKE) -f CMakeFiles/boil.dir/build.make CMakeFiles/boil.dir/build
+.PHONY : boil/fast
 
 #=============================================================================
 # Target rules for targets named zmalloc
@@ -187,6 +187,32 @@ util: cmake_check_build_system
 util/fast:
 	$(MAKE) -f core/util/CMakeFiles/util.dir/build.make core/util/CMakeFiles/util.dir/build
 .PHONY : util/fast
+
+#=============================================================================
+# Target rules for targets named example
+
+# Build rule for target.
+example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example
+.PHONY : example
+
+# fast build rule for target.
+example/fast:
+	$(MAKE) -f core/example/CMakeFiles/example.dir/build.make core/example/CMakeFiles/example.dir/build
+.PHONY : example/fast
+
+#=============================================================================
+# Target rules for targets named serviceframe
+
+# Build rule for target.
+serviceframe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 serviceframe
+.PHONY : serviceframe
+
+# fast build rule for target.
+serviceframe/fast:
+	$(MAKE) -f core/serviceframe/CMakeFiles/serviceframe.dir/build.make core/serviceframe/CMakeFiles/serviceframe.dir/build
+.PHONY : serviceframe/fast
 
 #=============================================================================
 # Target rules for targets named demo
@@ -272,7 +298,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/boil_study.dir/build.make CMakeFiles/boil_study.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/boil.dir/build.make CMakeFiles/boil.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -281,7 +307,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/boil_study.dir/build.make CMakeFiles/boil_study.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/boil.dir/build.make CMakeFiles/boil.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -290,7 +316,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/boil_study.dir/build.make CMakeFiles/boil_study.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/boil.dir/build.make CMakeFiles/boil.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -301,12 +327,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... boil_study"
+	@echo "... boil"
 	@echo "... zmalloc"
 	@echo "... core"
 	@echo "... network"
 	@echo "... log"
 	@echo "... util"
+	@echo "... example"
+	@echo "... serviceframe"
 	@echo "... demo"
 	@echo "... helloworld"
 	@echo "... idlebasic"

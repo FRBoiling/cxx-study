@@ -6,9 +6,8 @@
 #define _SIMPLESERVER_H
 
 
-#include <util/interface.h>
-#include <frame/IService.h>
-#include <network/AcceptorService.h>
+#include <AcceptorService.h>
+#include "../serviceframe/IService.h"
 
 class SimpleServer : implements IService {
 public:
@@ -27,7 +26,6 @@ public:
 
 private:
     AcceptorService *_service;
-
 };
 
 

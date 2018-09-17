@@ -5,7 +5,7 @@
 #ifndef _CONNECTOR_SERVICE_H
 #define _CONNECTOR_SERVICE_H
 
-#include "../frame/IService.h"
+#include "../serviceframe/IService.h"
 #include "ISocketConnector.h"
 
 class ConnectorService : implements ISocketConnector, implements IService {

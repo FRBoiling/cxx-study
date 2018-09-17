@@ -8,7 +8,7 @@
 
 #include "ISocketAcceptor.h"
 #include "../util/interface.h"
-#include "../frame/IService.h"
+#include "../serviceframe/IService.h"
 
 class AcceptorService : implements ISocketAcceptor, implements IService {
 

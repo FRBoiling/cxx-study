@@ -5,7 +5,6 @@
 #include <Log.h>
 #include "TcpServer.h"
 
-
 using namespace boil;
 
 using namespace std;
@@ -13,12 +12,12 @@ using namespace std;
 TcpServer::TcpServer(EventLoop *loop, SocketAddr &addr)
         : loop_(loop),
           ipv_(addr.Ipv()),
-          accetper_(new TcpAcceptor(loop, addr)),
+          acceptor_(new TcpAcceptor(loop, addr)),
           onMessageCallback_(nullptr),
           onNewConnectCallback_(nullptr),
           onConnectCloseCallback_(nullptr),
           timerWheel_(loop) {
-    accetper_->setNewConnectinonCallback([this](EventLoop *loop, uv_tcp_t *client) {
+    acceptor_->setNewConnectinonCallback([this](EventLoop *loop, uv_tcp_t *client) {
         string key;
         SocketAddr::AddrToStr(client, key, ipv_);
 
@@ -31,7 +30,7 @@ TcpServer::TcpServer(EventLoop *loop, SocketAddr &addr)
                     std::bind(&TcpServer::onMessage, this, placeholders::_1, placeholders::_2, placeholders::_3));
             connection->setConnectCloseCallback(std::bind(&TcpServer::closeConnection, this, placeholders::_1));
 
-            addConnnection(key, connection);
+            addConnection(key, connection);
             timerWheel_.insertNew(connection);
             if (onNewConnectCallback_)
                 onNewConnectCallback_(connection);
@@ -43,30 +42,26 @@ TcpServer::TcpServer(EventLoop *loop, SocketAddr &addr)
 
 }
 
-TcpServer::TcpServer(const TimerWheel &timerWheel_) {
-
-}
-
 TcpServer::~TcpServer() {
 
 }
 
 void TcpServer::start() {
     timerWheel_.start();
-    accetper_->listen();
+    acceptor_->listen();
 }
 
-void TcpServer::addConnnection(std::string &name, std::shared_ptr<TcpConnection> connection) {
-    connnections_.insert(pair<string, shared_ptr<TcpConnection>>(std::move(name), connection));
+void TcpServer::addConnection(std::string &name, std::shared_ptr<TcpConnection> connection) {
+    connections_.insert(pair<string, shared_ptr<TcpConnection>>(std::move(name), connection));
 }
 
-void TcpServer::removeConnnection(std::string &name) {
-    connnections_.erase(name);
+void TcpServer::removeConnection(std::string &name) {
+    connections_.erase(name);
 }
 
 std::shared_ptr<TcpConnection> TcpServer::getConnnection(std::string &name) {
-    auto rst = connnections_.find(name);
-    if (rst == connnections_.end()) {
+    auto rst = connections_.find(name);
+    if (rst == connections_.end()) {
         return nullptr;
     }
     return rst->second;
@@ -81,7 +76,7 @@ void TcpServer::closeConnection(std::string &name) {
                 if (onConnectCloseCallback_) {
                     onConnectCloseCallback_(connection);
                 }
-                connnections_.erase(name);
+                connections_.erase(name);
             }
 
         });

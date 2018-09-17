@@ -42,6 +42,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/boil/CLionProjects/boil/cmake-build-debug/core/network/cmake_install.cmake")
   include("/home/boil/CLionProjects/boil/cmake-build-debug/core/log/cmake_install.cmake")
   include("/home/boil/CLionProjects/boil/cmake-build-debug/core/util/cmake_install.cmake")
+  include("/home/boil/CLionProjects/boil/cmake-build-debug/core/example/cmake_install.cmake")
+  include("/home/boil/CLionProjects/boil/cmake-build-debug/core/serviceframe/cmake_install.cmake")
 
 endif()
 

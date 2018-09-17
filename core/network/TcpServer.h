@@ -2,18 +2,19 @@
 // Created by boil on 18-9-13.
 //
 
-#ifndef _TCPSERVER_H
-#define _TCPSERVER_H
-
+#ifndef BOIL_TCPSERVER_H
+#define BOIL_TCPSERVER_H
 #include <map>
 #include "EventLoop.h"
 #include "SocketAddr.h"
 #include "TcpConnection.h"
 #include "TcpAcceptor.h"
 #include "TimerWheel.h"
+#include "../util/abstract.h"
 
 namespace boil {
-    class TcpServer {
+
+    abstract TcpServer {
     public:
         TcpServer(EventLoop *loop, SocketAddr &addr);
 
@@ -23,9 +24,9 @@ namespace boil {
 
         void start();
 
-        void addConnnection(std::string &name, std::shared_ptr<TcpConnection> connection);
+        void addConnection(std::string &name, std::shared_ptr<TcpConnection> connection);
 
-        void removeConnnection(std::string &name);
+        void removeConnection(std::string &name);
 
         std::shared_ptr<TcpConnection> getConnnection(std::string &name);
 
@@ -55,9 +56,8 @@ namespace boil {
         EventLoop *loop_;
     private:
         SocketAddr::IPV ipv_;
-        std::shared_ptr<TcpAcceptor> accetper_;
-        std::map<std::string, std::shared_ptr<TcpConnection>> connnections_;
-
+        std::shared_ptr<TcpAcceptor> acceptor_;
+        std::map<std::string, std::shared_ptr<TcpConnection>> connections_;
 
         OnMessageCallback onMessageCallback_;
         OnNewConnectCallback onNewConnectCallback_;
@@ -66,4 +66,4 @@ namespace boil {
     };
 }
 
-#endif //_TCPSERVER_H
+#endif //BOIL_TCPSERVER_H

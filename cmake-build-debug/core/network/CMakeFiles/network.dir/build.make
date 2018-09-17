@@ -70,9 +70,22 @@ core/network/CMakeFiles/network.dir/AcceptorService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/AcceptorService.cpp.s"
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boil/CLionProjects/boil/core/network/AcceptorService.cpp -o CMakeFiles/network.dir/AcceptorService.cpp.s
 
+core/network/CMakeFiles/network.dir/ArrayBuffer.cc.o: core/network/CMakeFiles/network.dir/flags.make
+core/network/CMakeFiles/network.dir/ArrayBuffer.cc.o: ../core/network/ArrayBuffer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object core/network/CMakeFiles/network.dir/ArrayBuffer.cc.o"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/ArrayBuffer.cc.o -c /home/boil/CLionProjects/boil/core/network/ArrayBuffer.cc
+
+core/network/CMakeFiles/network.dir/ArrayBuffer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/ArrayBuffer.cc.i"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boil/CLionProjects/boil/core/network/ArrayBuffer.cc > CMakeFiles/network.dir/ArrayBuffer.cc.i
+
+core/network/CMakeFiles/network.dir/ArrayBuffer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/ArrayBuffer.cc.s"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boil/CLionProjects/boil/core/network/ArrayBuffer.cc -o CMakeFiles/network.dir/ArrayBuffer.cc.s
+
 core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: core/network/CMakeFiles/network.dir/flags.make
 core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: ../core/network/ConnectionElement.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object core/network/CMakeFiles/network.dir/ConnectionElement.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object core/network/CMakeFiles/network.dir/ConnectionElement.cc.o"
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/ConnectionElement.cc.o -c /home/boil/CLionProjects/boil/core/network/ConnectionElement.cc
 
 core/network/CMakeFiles/network.dir/ConnectionElement.cc.i: cmake_force
@@ -85,7 +98,7 @@ core/network/CMakeFiles/network.dir/ConnectionElement.cc.s: cmake_force
 
 core/network/CMakeFiles/network.dir/ConnectorService.cpp.o: core/network/CMakeFiles/network.dir/flags.make
 core/network/CMakeFiles/network.dir/ConnectorService.cpp.o: ../core/network/ConnectorService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object core/network/CMakeFiles/network.dir/ConnectorService.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object core/network/CMakeFiles/network.dir/ConnectorService.cpp.o"
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/ConnectorService.cpp.o -c /home/boil/CLionProjects/boil/core/network/ConnectorService.cpp
 
 core/network/CMakeFiles/network.dir/ConnectorService.cpp.i: cmake_force
@@ -98,7 +111,7 @@ core/network/CMakeFiles/network.dir/ConnectorService.cpp.s: cmake_force
 
 core/network/CMakeFiles/network.dir/EventLoop.cc.o: core/network/CMakeFiles/network.dir/flags.make
 core/network/CMakeFiles/network.dir/EventLoop.cc.o: ../core/network/EventLoop.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object core/network/CMakeFiles/network.dir/EventLoop.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object core/network/CMakeFiles/network.dir/EventLoop.cc.o"
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/EventLoop.cc.o -c /home/boil/CLionProjects/boil/core/network/EventLoop.cc
 
 core/network/CMakeFiles/network.dir/EventLoop.cc.i: cmake_force
@@ -109,9 +122,35 @@ core/network/CMakeFiles/network.dir/EventLoop.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/EventLoop.cc.s"
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boil/CLionProjects/boil/core/network/EventLoop.cc -o CMakeFiles/network.dir/EventLoop.cc.s
 
+core/network/CMakeFiles/network.dir/ListBuffer.cc.o: core/network/CMakeFiles/network.dir/flags.make
+core/network/CMakeFiles/network.dir/ListBuffer.cc.o: ../core/network/ListBuffer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object core/network/CMakeFiles/network.dir/ListBuffer.cc.o"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/ListBuffer.cc.o -c /home/boil/CLionProjects/boil/core/network/ListBuffer.cc
+
+core/network/CMakeFiles/network.dir/ListBuffer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/ListBuffer.cc.i"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boil/CLionProjects/boil/core/network/ListBuffer.cc > CMakeFiles/network.dir/ListBuffer.cc.i
+
+core/network/CMakeFiles/network.dir/ListBuffer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/ListBuffer.cc.s"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boil/CLionProjects/boil/core/network/ListBuffer.cc -o CMakeFiles/network.dir/ListBuffer.cc.s
+
+core/network/CMakeFiles/network.dir/Packet.cc.o: core/network/CMakeFiles/network.dir/flags.make
+core/network/CMakeFiles/network.dir/Packet.cc.o: ../core/network/Packet.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object core/network/CMakeFiles/network.dir/Packet.cc.o"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/Packet.cc.o -c /home/boil/CLionProjects/boil/core/network/Packet.cc
+
+core/network/CMakeFiles/network.dir/Packet.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/Packet.cc.i"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boil/CLionProjects/boil/core/network/Packet.cc > CMakeFiles/network.dir/Packet.cc.i
+
+core/network/CMakeFiles/network.dir/Packet.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/Packet.cc.s"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boil/CLionProjects/boil/core/network/Packet.cc -o CMakeFiles/network.dir/Packet.cc.s
+
 core/network/CMakeFiles/network.dir/SocketAddr.cc.o: core/network/CMakeFiles/network.dir/flags.make
 core/network/CMakeFiles/network.dir/SocketAddr.cc.o: ../core/network/SocketAddr.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object core/network/CMakeFiles/network.dir/SocketAddr.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object core/network/CMakeFiles/network.dir/SocketAddr.cc.o"
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/SocketAddr.cc.o -c /home/boil/CLionProjects/boil/core/network/SocketAddr.cc
 
 core/network/CMakeFiles/network.dir/SocketAddr.cc.i: cmake_force
@@ -124,7 +163,7 @@ core/network/CMakeFiles/network.dir/SocketAddr.cc.s: cmake_force
 
 core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: core/network/CMakeFiles/network.dir/flags.make
 core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: ../core/network/TcpAcceptor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o"
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/TcpAcceptor.cc.o -c /home/boil/CLionProjects/boil/core/network/TcpAcceptor.cc
 
 core/network/CMakeFiles/network.dir/TcpAcceptor.cc.i: cmake_force
@@ -137,7 +176,7 @@ core/network/CMakeFiles/network.dir/TcpAcceptor.cc.s: cmake_force
 
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: core/network/CMakeFiles/network.dir/flags.make
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/TcpConnection.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object core/network/CMakeFiles/network.dir/TcpConnection.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object core/network/CMakeFiles/network.dir/TcpConnection.cc.o"
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/TcpConnection.cc.o -c /home/boil/CLionProjects/boil/core/network/TcpConnection.cc
 
 core/network/CMakeFiles/network.dir/TcpConnection.cc.i: cmake_force
@@ -150,7 +189,7 @@ core/network/CMakeFiles/network.dir/TcpConnection.cc.s: cmake_force
 
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: core/network/CMakeFiles/network.dir/flags.make
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/TcpServer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object core/network/CMakeFiles/network.dir/TcpServer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object core/network/CMakeFiles/network.dir/TcpServer.cc.o"
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/TcpServer.cc.o -c /home/boil/CLionProjects/boil/core/network/TcpServer.cc
 
 core/network/CMakeFiles/network.dir/TcpServer.cc.i: cmake_force
@@ -163,7 +202,7 @@ core/network/CMakeFiles/network.dir/TcpServer.cc.s: cmake_force
 
 core/network/CMakeFiles/network.dir/TimerWheel.cc.o: core/network/CMakeFiles/network.dir/flags.make
 core/network/CMakeFiles/network.dir/TimerWheel.cc.o: ../core/network/TimerWheel.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object core/network/CMakeFiles/network.dir/TimerWheel.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object core/network/CMakeFiles/network.dir/TimerWheel.cc.o"
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/TimerWheel.cc.o -c /home/boil/CLionProjects/boil/core/network/TimerWheel.cc
 
 core/network/CMakeFiles/network.dir/TimerWheel.cc.i: cmake_force
@@ -177,9 +216,12 @@ core/network/CMakeFiles/network.dir/TimerWheel.cc.s: cmake_force
 # Object files for target network
 network_OBJECTS = \
 "CMakeFiles/network.dir/AcceptorService.cpp.o" \
+"CMakeFiles/network.dir/ArrayBuffer.cc.o" \
 "CMakeFiles/network.dir/ConnectionElement.cc.o" \
 "CMakeFiles/network.dir/ConnectorService.cpp.o" \
 "CMakeFiles/network.dir/EventLoop.cc.o" \
+"CMakeFiles/network.dir/ListBuffer.cc.o" \
+"CMakeFiles/network.dir/Packet.cc.o" \
 "CMakeFiles/network.dir/SocketAddr.cc.o" \
 "CMakeFiles/network.dir/TcpAcceptor.cc.o" \
 "CMakeFiles/network.dir/TcpConnection.cc.o" \
@@ -190,9 +232,12 @@ network_OBJECTS = \
 network_EXTERNAL_OBJECTS =
 
 core/network/libnetwork.a: core/network/CMakeFiles/network.dir/AcceptorService.cpp.o
+core/network/libnetwork.a: core/network/CMakeFiles/network.dir/ArrayBuffer.cc.o
 core/network/libnetwork.a: core/network/CMakeFiles/network.dir/ConnectionElement.cc.o
 core/network/libnetwork.a: core/network/CMakeFiles/network.dir/ConnectorService.cpp.o
 core/network/libnetwork.a: core/network/CMakeFiles/network.dir/EventLoop.cc.o
+core/network/libnetwork.a: core/network/CMakeFiles/network.dir/ListBuffer.cc.o
+core/network/libnetwork.a: core/network/CMakeFiles/network.dir/Packet.cc.o
 core/network/libnetwork.a: core/network/CMakeFiles/network.dir/SocketAddr.cc.o
 core/network/libnetwork.a: core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o
 core/network/libnetwork.a: core/network/CMakeFiles/network.dir/TcpConnection.cc.o
@@ -200,7 +245,7 @@ core/network/libnetwork.a: core/network/CMakeFiles/network.dir/TcpServer.cc.o
 core/network/libnetwork.a: core/network/CMakeFiles/network.dir/TimerWheel.cc.o
 core/network/libnetwork.a: core/network/CMakeFiles/network.dir/build.make
 core/network/libnetwork.a: core/network/CMakeFiles/network.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libnetwork.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libnetwork.a"
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && $(CMAKE_COMMAND) -P CMakeFiles/network.dir/cmake_clean_target.cmake
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/network && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/network.dir/link.txt --verbose=$(VERBOSE)
 

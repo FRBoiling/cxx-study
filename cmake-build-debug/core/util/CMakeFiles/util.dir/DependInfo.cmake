@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/boil/CLionProjects/boil/core/util/Timer.cc" "/home/boil/CLionProjects/boil/cmake-build-debug/core/util/CMakeFiles/util.dir/Timer.cc.o"
+  "/home/boil/CLionProjects/boil/core/util/util.cc" "/home/boil/CLionProjects/boil/cmake-build-debug/core/util/CMakeFiles/util.dir/util.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

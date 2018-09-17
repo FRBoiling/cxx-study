@@ -7,7 +7,8 @@
 
 namespace boil {
 
-#define abstract public
+#define abstract class
+#define extends public
 
 }
 

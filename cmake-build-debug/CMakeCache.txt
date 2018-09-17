@@ -144,7 +144,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=boil_study
+CMAKE_PROJECT_NAME:STATIC=boil
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -218,10 +218,10 @@ USE_JEMALLOC:BOOL=ON
 USE_TCMALLOC:BOOL=OFF
 
 //Value Computed by CMake
-boil_study_BINARY_DIR:STATIC=/home/boil/CLionProjects/boil/cmake-build-debug
+boil_BINARY_DIR:STATIC=/home/boil/CLionProjects/boil/cmake-build-debug
 
 //Value Computed by CMake
-boil_study_SOURCE_DIR:STATIC=/home/boil/CLionProjects/boil
+boil_SOURCE_DIR:STATIC=/home/boil/CLionProjects/boil
 
 
 ########################
@@ -332,7 +332,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -5,9 +5,9 @@
 #ifndef BOIL_ILOG_H
 #define BOIL_ILOG_H
 
-#include "interface.h"
 
 #include <string>
+#include "../util/interface.h"
 
 namespace boil{
     interface ILog {

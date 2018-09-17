@@ -1,2 +1,2 @@
-/usr/bin/ar qc libutil.a  CMakeFiles/util.dir/Timer.cc.o
+/usr/bin/ar qc libutil.a  CMakeFiles/util.dir/util.cc.o
 /usr/bin/ranlib libutil.a

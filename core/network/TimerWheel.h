@@ -10,6 +10,7 @@
 #include "EventLoop.h"
 #include "TcpConnection.h"
 #include "ConnectionElement.h"
+#include "Timer.h"
 
 namespace boil {
 
@@ -23,7 +24,7 @@ namespace boil {
 
         void start();
 
-        void insert(std::shared_ptr<TcpConnection> connnection);
+        void insert(std::shared_ptr<TcpConnection> connection);
 
         void insertNew(std::shared_ptr<TcpConnection> connection);
 

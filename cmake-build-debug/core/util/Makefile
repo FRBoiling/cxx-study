@@ -125,32 +125,32 @@ util/fast:
 	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/util/CMakeFiles/util.dir/build.make core/util/CMakeFiles/util.dir/build
 .PHONY : util/fast
 
-Timer.o: Timer.cc.o
+util.o: util.cc.o
 
-.PHONY : Timer.o
+.PHONY : util.o
 
 # target to build an object file
-Timer.cc.o:
-	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/util/CMakeFiles/util.dir/build.make core/util/CMakeFiles/util.dir/Timer.cc.o
-.PHONY : Timer.cc.o
+util.cc.o:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/util/CMakeFiles/util.dir/build.make core/util/CMakeFiles/util.dir/util.cc.o
+.PHONY : util.cc.o
 
-Timer.i: Timer.cc.i
+util.i: util.cc.i
 
-.PHONY : Timer.i
+.PHONY : util.i
 
 # target to preprocess a source file
-Timer.cc.i:
-	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/util/CMakeFiles/util.dir/build.make core/util/CMakeFiles/util.dir/Timer.cc.i
-.PHONY : Timer.cc.i
+util.cc.i:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/util/CMakeFiles/util.dir/build.make core/util/CMakeFiles/util.dir/util.cc.i
+.PHONY : util.cc.i
 
-Timer.s: Timer.cc.s
+util.s: util.cc.s
 
-.PHONY : Timer.s
+.PHONY : util.s
 
 # target to generate assembly for a file
-Timer.cc.s:
-	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/util/CMakeFiles/util.dir/build.make core/util/CMakeFiles/util.dir/Timer.cc.s
-.PHONY : Timer.cc.s
+util.cc.s:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/util/CMakeFiles/util.dir/build.make core/util/CMakeFiles/util.dir/util.cc.s
+.PHONY : util.cc.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... util"
-	@echo "... Timer.o"
-	@echo "... Timer.i"
-	@echo "... Timer.s"
+	@echo "... util.o"
+	@echo "... util.i"
+	@echo "... util.s"
 .PHONY : help
 
 

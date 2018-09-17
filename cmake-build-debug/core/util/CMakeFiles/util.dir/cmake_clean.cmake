@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/util.dir/Timer.cc.o"
+  "CMakeFiles/util.dir/util.cc.o"
   "libutil.pdb"
   "libutil.a"
 )

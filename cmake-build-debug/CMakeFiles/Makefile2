@@ -65,49 +65,51 @@ CMAKE_SOURCE_DIR = /home/boil/CLionProjects/boil
 CMAKE_BINARY_DIR = /home/boil/CLionProjects/boil/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/boil_study.dir
+# Target rules for target CMakeFiles/boil.dir
 
 # All Build rule for target.
-CMakeFiles/boil_study.dir/all: zmalloc/CMakeFiles/zmalloc.dir/all
-CMakeFiles/boil_study.dir/all: core/CMakeFiles/core.dir/all
-CMakeFiles/boil_study.dir/all: core/network/CMakeFiles/network.dir/all
-CMakeFiles/boil_study.dir/all: core/log/CMakeFiles/log.dir/all
-CMakeFiles/boil_study.dir/all: core/util/CMakeFiles/util.dir/all
-CMakeFiles/boil_study.dir/all: demo/CMakeFiles/demo.dir/all
-CMakeFiles/boil_study.dir/all: demo/hello_world/CMakeFiles/helloworld.dir/all
-CMakeFiles/boil_study.dir/all: demo/idle_basic/CMakeFiles/idlebasic.dir/all
-CMakeFiles/boil_study.dir/all: demo/uv_cat/CMakeFiles/uvcat.dir/all
-CMakeFiles/boil_study.dir/all: demo/uv_tee/CMakeFiles/uvtee.dir/all
-CMakeFiles/boil_study.dir/all: demo/tcp_echo_server/CMakeFiles/tcpechoserver.dir/all
-	$(MAKE) -f CMakeFiles/boil_study.dir/build.make CMakeFiles/boil_study.dir/depend
-	$(MAKE) -f CMakeFiles/boil_study.dir/build.make CMakeFiles/boil_study.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target boil_study"
-.PHONY : CMakeFiles/boil_study.dir/all
+CMakeFiles/boil.dir/all: zmalloc/CMakeFiles/zmalloc.dir/all
+CMakeFiles/boil.dir/all: core/CMakeFiles/core.dir/all
+CMakeFiles/boil.dir/all: core/network/CMakeFiles/network.dir/all
+CMakeFiles/boil.dir/all: core/log/CMakeFiles/log.dir/all
+CMakeFiles/boil.dir/all: core/util/CMakeFiles/util.dir/all
+CMakeFiles/boil.dir/all: core/example/CMakeFiles/example.dir/all
+CMakeFiles/boil.dir/all: core/serviceframe/CMakeFiles/serviceframe.dir/all
+CMakeFiles/boil.dir/all: demo/CMakeFiles/demo.dir/all
+CMakeFiles/boil.dir/all: demo/hello_world/CMakeFiles/helloworld.dir/all
+CMakeFiles/boil.dir/all: demo/idle_basic/CMakeFiles/idlebasic.dir/all
+CMakeFiles/boil.dir/all: demo/uv_cat/CMakeFiles/uvcat.dir/all
+CMakeFiles/boil.dir/all: demo/uv_tee/CMakeFiles/uvtee.dir/all
+CMakeFiles/boil.dir/all: demo/tcp_echo_server/CMakeFiles/tcpechoserver.dir/all
+	$(MAKE) -f CMakeFiles/boil.dir/build.make CMakeFiles/boil.dir/depend
+	$(MAKE) -f CMakeFiles/boil.dir/build.make CMakeFiles/boil.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target boil"
+.PHONY : CMakeFiles/boil.dir/all
 
 # Include target in all.
-all: CMakeFiles/boil_study.dir/all
+all: CMakeFiles/boil.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/boil_study.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles 30
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/boil_study.dir/all
+CMakeFiles/boil.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles 40
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/boil.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/boil_study.dir/rule
+.PHONY : CMakeFiles/boil.dir/rule
 
 # Convenience name for target.
-boil_study: CMakeFiles/boil_study.dir/rule
+boil: CMakeFiles/boil.dir/rule
 
-.PHONY : boil_study
-
-# clean rule for target.
-CMakeFiles/boil_study.dir/clean:
-	$(MAKE) -f CMakeFiles/boil_study.dir/build.make CMakeFiles/boil_study.dir/clean
-.PHONY : CMakeFiles/boil_study.dir/clean
+.PHONY : boil
 
 # clean rule for target.
-clean: CMakeFiles/boil_study.dir/clean
+CMakeFiles/boil.dir/clean:
+	$(MAKE) -f CMakeFiles/boil.dir/build.make CMakeFiles/boil.dir/clean
+.PHONY : CMakeFiles/boil.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/boil.dir/clean
 
 .PHONY : clean
 
@@ -136,7 +138,7 @@ zmalloc/preinstall:
 zmalloc/CMakeFiles/zmalloc.dir/all:
 	$(MAKE) -f zmalloc/CMakeFiles/zmalloc.dir/build.make zmalloc/CMakeFiles/zmalloc.dir/depend
 	$(MAKE) -f zmalloc/CMakeFiles/zmalloc.dir/build.make zmalloc/CMakeFiles/zmalloc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target zmalloc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target zmalloc"
 .PHONY : zmalloc/CMakeFiles/zmalloc.dir/all
 
 # Include target in all.
@@ -174,6 +176,8 @@ core/all: core/CMakeFiles/core.dir/all
 core/all: core/network/all
 core/all: core/log/all
 core/all: core/util/all
+core/all: core/example/all
+core/all: core/serviceframe/all
 
 .PHONY : core/all
 
@@ -182,6 +186,8 @@ core/clean: core/CMakeFiles/core.dir/clean
 core/clean: core/network/clean
 core/clean: core/log/clean
 core/clean: core/util/clean
+core/clean: core/example/clean
+core/clean: core/serviceframe/clean
 
 .PHONY : core/clean
 
@@ -189,6 +195,8 @@ core/clean: core/util/clean
 core/preinstall: core/network/preinstall
 core/preinstall: core/log/preinstall
 core/preinstall: core/util/preinstall
+core/preinstall: core/example/preinstall
+core/preinstall: core/serviceframe/preinstall
 
 .PHONY : core/preinstall
 
@@ -199,6 +207,8 @@ core/preinstall: core/util/preinstall
 core/CMakeFiles/core.dir/all: core/network/CMakeFiles/network.dir/all
 core/CMakeFiles/core.dir/all: core/log/CMakeFiles/log.dir/all
 core/CMakeFiles/core.dir/all: core/util/CMakeFiles/util.dir/all
+core/CMakeFiles/core.dir/all: core/example/CMakeFiles/example.dir/all
+core/CMakeFiles/core.dir/all: core/serviceframe/CMakeFiles/serviceframe.dir/all
 	$(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/depend
 	$(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=3 "Built target core"
@@ -211,7 +221,7 @@ all: core/CMakeFiles/core.dir/all
 
 # Build rule for subdir invocation for target.
 core/CMakeFiles/core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 core/CMakeFiles/core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles 0
 .PHONY : core/CMakeFiles/core.dir/rule
@@ -253,10 +263,12 @@ core/network/preinstall:
 # Target rules for target core/network/CMakeFiles/network.dir
 
 # All Build rule for target.
-core/network/CMakeFiles/network.dir/all:
+core/network/CMakeFiles/network.dir/all: core/log/CMakeFiles/log.dir/all
+core/network/CMakeFiles/network.dir/all: core/util/CMakeFiles/util.dir/all
+core/network/CMakeFiles/network.dir/all: core/serviceframe/CMakeFiles/serviceframe.dir/all
 	$(MAKE) -f core/network/CMakeFiles/network.dir/build.make core/network/CMakeFiles/network.dir/depend
 	$(MAKE) -f core/network/CMakeFiles/network.dir/build.make core/network/CMakeFiles/network.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20 "Built target network"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target network"
 .PHONY : core/network/CMakeFiles/network.dir/all
 
 # Include target in all.
@@ -266,7 +278,7 @@ all: core/network/CMakeFiles/network.dir/all
 
 # Build rule for subdir invocation for target.
 core/network/CMakeFiles/network.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 core/network/CMakeFiles/network.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles 0
 .PHONY : core/network/CMakeFiles/network.dir/rule
@@ -311,7 +323,7 @@ core/log/preinstall:
 core/log/CMakeFiles/log.dir/all:
 	$(MAKE) -f core/log/CMakeFiles/log.dir/build.make core/log/CMakeFiles/log.dir/depend
 	$(MAKE) -f core/log/CMakeFiles/log.dir/build.make core/log/CMakeFiles/log.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target log"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target log"
 .PHONY : core/log/CMakeFiles/log.dir/all
 
 # Include target in all.
@@ -366,7 +378,7 @@ core/util/preinstall:
 core/util/CMakeFiles/util.dir/all:
 	$(MAKE) -f core/util/CMakeFiles/util.dir/build.make core/util/CMakeFiles/util.dir/depend
 	$(MAKE) -f core/util/CMakeFiles/util.dir/build.make core/util/CMakeFiles/util.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target util"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target util"
 .PHONY : core/util/CMakeFiles/util.dir/all
 
 # Include target in all.
@@ -393,6 +405,119 @@ core/util/CMakeFiles/util.dir/clean:
 
 # clean rule for target.
 clean: core/util/CMakeFiles/util.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory core/example
+
+# Convenience name for "all" pass in the directory.
+core/example/all: core/example/CMakeFiles/example.dir/all
+
+.PHONY : core/example/all
+
+# Convenience name for "clean" pass in the directory.
+core/example/clean: core/example/CMakeFiles/example.dir/clean
+
+.PHONY : core/example/clean
+
+# Convenience name for "preinstall" pass in the directory.
+core/example/preinstall:
+
+.PHONY : core/example/preinstall
+
+#=============================================================================
+# Target rules for target core/example/CMakeFiles/example.dir
+
+# All Build rule for target.
+core/example/CMakeFiles/example.dir/all: core/network/CMakeFiles/network.dir/all
+core/example/CMakeFiles/example.dir/all: core/log/CMakeFiles/log.dir/all
+core/example/CMakeFiles/example.dir/all: core/util/CMakeFiles/util.dir/all
+core/example/CMakeFiles/example.dir/all: core/serviceframe/CMakeFiles/serviceframe.dir/all
+	$(MAKE) -f core/example/CMakeFiles/example.dir/build.make core/example/CMakeFiles/example.dir/depend
+	$(MAKE) -f core/example/CMakeFiles/example.dir/build.make core/example/CMakeFiles/example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=5,6,7,8,9 "Built target example"
+.PHONY : core/example/CMakeFiles/example.dir/all
+
+# Include target in all.
+all: core/example/CMakeFiles/example.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+core/example/CMakeFiles/example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles 24
+	$(MAKE) -f CMakeFiles/Makefile2 core/example/CMakeFiles/example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles 0
+.PHONY : core/example/CMakeFiles/example.dir/rule
+
+# Convenience name for target.
+example: core/example/CMakeFiles/example.dir/rule
+
+.PHONY : example
+
+# clean rule for target.
+core/example/CMakeFiles/example.dir/clean:
+	$(MAKE) -f core/example/CMakeFiles/example.dir/build.make core/example/CMakeFiles/example.dir/clean
+.PHONY : core/example/CMakeFiles/example.dir/clean
+
+# clean rule for target.
+clean: core/example/CMakeFiles/example.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory core/serviceframe
+
+# Convenience name for "all" pass in the directory.
+core/serviceframe/all: core/serviceframe/CMakeFiles/serviceframe.dir/all
+
+.PHONY : core/serviceframe/all
+
+# Convenience name for "clean" pass in the directory.
+core/serviceframe/clean: core/serviceframe/CMakeFiles/serviceframe.dir/clean
+
+.PHONY : core/serviceframe/clean
+
+# Convenience name for "preinstall" pass in the directory.
+core/serviceframe/preinstall:
+
+.PHONY : core/serviceframe/preinstall
+
+#=============================================================================
+# Target rules for target core/serviceframe/CMakeFiles/serviceframe.dir
+
+# All Build rule for target.
+core/serviceframe/CMakeFiles/serviceframe.dir/all:
+	$(MAKE) -f core/serviceframe/CMakeFiles/serviceframe.dir/build.make core/serviceframe/CMakeFiles/serviceframe.dir/depend
+	$(MAKE) -f core/serviceframe/CMakeFiles/serviceframe.dir/build.make core/serviceframe/CMakeFiles/serviceframe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target serviceframe"
+.PHONY : core/serviceframe/CMakeFiles/serviceframe.dir/all
+
+# Include target in all.
+all: core/serviceframe/CMakeFiles/serviceframe.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+core/serviceframe/CMakeFiles/serviceframe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 core/serviceframe/CMakeFiles/serviceframe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles 0
+.PHONY : core/serviceframe/CMakeFiles/serviceframe.dir/rule
+
+# Convenience name for target.
+serviceframe: core/serviceframe/CMakeFiles/serviceframe.dir/rule
+
+.PHONY : serviceframe
+
+# clean rule for target.
+core/serviceframe/CMakeFiles/serviceframe.dir/clean:
+	$(MAKE) -f core/serviceframe/CMakeFiles/serviceframe.dir/build.make core/serviceframe/CMakeFiles/serviceframe.dir/clean
+.PHONY : core/serviceframe/CMakeFiles/serviceframe.dir/clean
+
+# clean rule for target.
+clean: core/serviceframe/CMakeFiles/serviceframe.dir/clean
 
 .PHONY : clean
 
@@ -494,7 +619,7 @@ demo/hello_world/preinstall:
 demo/hello_world/CMakeFiles/helloworld.dir/all:
 	$(MAKE) -f demo/hello_world/CMakeFiles/helloworld.dir/build.make demo/hello_world/CMakeFiles/helloworld.dir/depend
 	$(MAKE) -f demo/hello_world/CMakeFiles/helloworld.dir/build.make demo/hello_world/CMakeFiles/helloworld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target helloworld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target helloworld"
 .PHONY : demo/hello_world/CMakeFiles/helloworld.dir/all
 
 # Include target in all.
@@ -549,7 +674,7 @@ demo/idle_basic/preinstall:
 demo/idle_basic/CMakeFiles/idlebasic.dir/all:
 	$(MAKE) -f demo/idle_basic/CMakeFiles/idlebasic.dir/build.make demo/idle_basic/CMakeFiles/idlebasic.dir/depend
 	$(MAKE) -f demo/idle_basic/CMakeFiles/idlebasic.dir/build.make demo/idle_basic/CMakeFiles/idlebasic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target idlebasic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target idlebasic"
 .PHONY : demo/idle_basic/CMakeFiles/idlebasic.dir/all
 
 # Include target in all.
@@ -604,7 +729,7 @@ demo/uv_cat/preinstall:
 demo/uv_cat/CMakeFiles/uvcat.dir/all:
 	$(MAKE) -f demo/uv_cat/CMakeFiles/uvcat.dir/build.make demo/uv_cat/CMakeFiles/uvcat.dir/depend
 	$(MAKE) -f demo/uv_cat/CMakeFiles/uvcat.dir/build.make demo/uv_cat/CMakeFiles/uvcat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target uvcat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target uvcat"
 .PHONY : demo/uv_cat/CMakeFiles/uvcat.dir/all
 
 # Include target in all.
@@ -659,7 +784,7 @@ demo/uv_tee/preinstall:
 demo/uv_tee/CMakeFiles/uvtee.dir/all:
 	$(MAKE) -f demo/uv_tee/CMakeFiles/uvtee.dir/build.make demo/uv_tee/CMakeFiles/uvtee.dir/depend
 	$(MAKE) -f demo/uv_tee/CMakeFiles/uvtee.dir/build.make demo/uv_tee/CMakeFiles/uvtee.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target uvtee"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target uvtee"
 .PHONY : demo/uv_tee/CMakeFiles/uvtee.dir/all
 
 # Include target in all.
@@ -714,7 +839,7 @@ demo/tcp_echo_server/preinstall:
 demo/tcp_echo_server/CMakeFiles/tcpechoserver.dir/all:
 	$(MAKE) -f demo/tcp_echo_server/CMakeFiles/tcpechoserver.dir/build.make demo/tcp_echo_server/CMakeFiles/tcpechoserver.dir/depend
 	$(MAKE) -f demo/tcp_echo_server/CMakeFiles/tcpechoserver.dir/build.make demo/tcp_echo_server/CMakeFiles/tcpechoserver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target tcpechoserver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target tcpechoserver"
 .PHONY : demo/tcp_echo_server/CMakeFiles/tcpechoserver.dir/all
 
 # Include target in all.

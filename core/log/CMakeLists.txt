@@ -1,3 +1,5 @@
+set(CMAKE_CXX_STANDARD 14)
+
 aux_source_directory(. DIR_LOG)
 
 set(DIR_UTIL ../util)
