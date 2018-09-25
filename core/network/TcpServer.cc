@@ -17,11 +17,12 @@ TcpServer::TcpServer(EventLoop *loop, SocketAddr &addr)
           onNewConnectCallback_(nullptr),
           onConnectCloseCallback_(nullptr),
           timerWheel_(loop) {
-    acceptor_->setNewConnectinonCallback([this](EventLoop *loop, uv_tcp_t *client) {
+
+    acceptor_->setNewConnectionCallback([this](EventLoop *loop, uv_tcp_t *client) {
         string key;
         SocketAddr::AddrToStr(client, key, ipv_);
 
-        Log::Instance()->info("new connect  " + key);
+        Log::Instance()->info("new connect " + key);
 
 
         shared_ptr<TcpConnection> connection(new TcpConnection(loop, key, client));

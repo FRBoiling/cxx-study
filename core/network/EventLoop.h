@@ -2,8 +2,8 @@
 // Created by boil on 18-9-13.
 //
 
-#ifndef BOIL_EVENTLOOP_H
-#define BOIL_EVENTLOOP_H
+#ifndef BOIL_EVENT_LOOP_H
+#define BOIL_EVENT_LOOP_H
 
 #include "uv_define.h"
 #include <functional>
@@ -42,7 +42,7 @@ namespace boil {
         EventLoop(Mode mode);
 
         std::thread::id loopThreadId_;
-        std::atomic<bool> isRun;
+        std::atomic<bool> isRun_;
         uv_loop_t *loop_;
     };
 
@@ -50,4 +50,4 @@ namespace boil {
 
 }
 
-#endif //BOIL_EVENTLOOP_H
+#endif //BOIL_EVENT_LOOP_H

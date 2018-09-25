@@ -9,22 +9,26 @@
 using namespace boil;
 
 EventLoop::EventLoop()
-        : isRun(false) {
+        : isRun_(false) {
+
     loop_ = new uv_loop_t();
-    ::uv_loop_init(loop_);
+    uv_loop_init(loop_);
+
 }
 
 EventLoop::EventLoop(EventLoop::Mode mode)
-        : isRun(false) {
+        : isRun_(false) {
+
     if (mode == EventLoop::New) {
         loop_ = new uv_loop_t();
-        ::uv_loop_init(loop_);
+        uv_loop_init(loop_);
     } else {
         loop_ = uv_default_loop();
     }
 }
 
 EventLoop::~EventLoop() {
+
     if (loop_ != uv_default_loop()) {
         uv_loop_close(loop_);
         delete loop_;
@@ -42,22 +46,21 @@ uv_loop_t *EventLoop::hanlde() {
 
 int EventLoop::run() {
     loopThreadId_ = std::this_thread::get_id();
-    isRun = true;
-    return ::uv_run(loop_, UV_RUN_DEFAULT);
+    isRun_ = true;
+    return uv_run(loop_, UV_RUN_DEFAULT);
 }
 
 int EventLoop::runNoWait() {
     loopThreadId_ = std::this_thread::get_id();
-    isRun = true;
-    return ::uv_run(loop_, UV_RUN_NOWAIT);
+    isRun_ = true;
+    return uv_run(loop_, UV_RUN_NOWAIT);
 }
 
 
 bool EventLoop::isRunInLoopThread() {
-    if (isRun) {
+    if (isRun_) {
         return std::this_thread::get_id() == loopThreadId_;
     }
-    //EventLoopδ����.
     return false;
 }
 

@@ -5,22 +5,16 @@
 #ifndef BOIL_LOG_H
 #define BOIL_LOG_H
 
-
-#include <string>
-#include <functional>
 #include "ILog.h"
+#include "LogLevel.h"
+#include <functional>
+#include <string.h>
 
 namespace boil {
 
     class Log {
 
     public:
-        enum Level {
-            Debug = 0,
-            Info,
-            Warn,
-            Error
-        };
 
         using OutMessageType = std::function<void(const std::string &)>;
 
@@ -30,7 +24,7 @@ namespace boil {
         }
 
     private:
-        OutMessageType funcs_[Error + 1];
+        OutMessageType funcs_[ERROR + 1];
 
         Log() : handle_(nullptr) {
         }
@@ -59,7 +53,11 @@ namespace boil {
         void debug(const std::string &data);
 
         void debug(const std::string &&data);
+
     };
+
+    const char* strerror_tl(int savedErrno);
+
 }
 
 #endif //BOIL_LOG_H

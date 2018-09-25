@@ -1,4 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/util.dir/Date.cc.o"
+  "CMakeFiles/util.dir/File.cc.o"
+  "CMakeFiles/util.dir/FileUtil.cc.o"
+  "CMakeFiles/util.dir/TimeZone.cc.o"
+  "CMakeFiles/util.dir/Timestamp.cc.o"
   "CMakeFiles/util.dir/util.cc.o"
   "libutil.pdb"
   "libutil.a"

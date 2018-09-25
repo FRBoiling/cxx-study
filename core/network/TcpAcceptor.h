@@ -2,8 +2,8 @@
 // Created by boil on 18-9-13.
 //
 
-#ifndef _TCPACCEPTOR_H
-#define _TCPACCEPTOR_H
+#ifndef BOIL_TCP_ACCEPTOR_H
+#define BOIL_TCP_ACCEPTOR_H
 
 
 #include "SocketAddr.h"
@@ -23,7 +23,7 @@ namespace boil {
 
         bool isListen();
 
-        void setNewConnectinonCallback(NewConnectionCallback callback);
+        void setNewConnectionCallback(NewConnectionCallback callback);
 
         EventLoop *Loop();
 
@@ -39,4 +39,4 @@ namespace boil {
 
 }
 
-#endif //_TCPACCEPTOR_H
+#endif //BOIL_TCP_ACCEPTOR_H

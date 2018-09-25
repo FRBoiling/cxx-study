@@ -5,7 +5,7 @@
 #ifndef BOIL_AARRYBUFFER_H
 #define BOIL_AARRYBUFFER_H
 
-#include "PacketBuffer.h"
+#include "IPacketBuffer.h"
 
 //ArrayBuffer(cycle)
 //---------------------------------------

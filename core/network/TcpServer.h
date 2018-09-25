@@ -2,8 +2,9 @@
 // Created by boil on 18-9-13.
 //
 
-#ifndef BOIL_TCPSERVER_H
-#define BOIL_TCPSERVER_H
+#ifndef BOIL_TCP_SERVER_H
+#define BOIL_TCP_SERVER_H
+
 #include <map>
 #include "EventLoop.h"
 #include "SocketAddr.h"
@@ -66,4 +67,4 @@ namespace boil {
     };
 }
 
-#endif //BOIL_TCPSERVER_H
+#endif //BOIL_TCP_SERVER_H

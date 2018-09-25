@@ -11,8 +11,8 @@ core/network/CMakeFiles/network.dir/AcceptorService.cpp.o: ../core/util/interfac
 
 core/network/CMakeFiles/network.dir/ArrayBuffer.cc.o: ../core/network/ArrayBuffer.cc
 core/network/CMakeFiles/network.dir/ArrayBuffer.cc.o: ../core/network/ArrayBuffer.h
+core/network/CMakeFiles/network.dir/ArrayBuffer.cc.o: ../core/network/IPacketBuffer.h
 core/network/CMakeFiles/network.dir/ArrayBuffer.cc.o: ../core/network/Packet.h
-core/network/CMakeFiles/network.dir/ArrayBuffer.cc.o: ../core/network/PacketBuffer.h
 core/network/CMakeFiles/network.dir/ArrayBuffer.cc.o: ../core/util/interface.h
 
 core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: ../define/uv_define.h
@@ -20,11 +20,17 @@ core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: ../core/network/Arra
 core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: ../core/network/ConnectionElement.cc
 core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: ../core/network/ConnectionElement.h
 core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: ../core/network/EventLoop.h
+core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: ../core/network/IPacketBuffer.h
 core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: ../core/network/ListBuffer.h
 core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: ../core/network/Packet.h
-core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: ../core/network/PacketBuffer.h
 core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: ../core/network/TcpConnection.h
 core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: ../core/util/interface.h
+core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: /usr/local/include/uv.h
+core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: /usr/local/include/uv/errno.h
+core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: /usr/local/include/uv/linux.h
+core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: /usr/local/include/uv/threadpool.h
+core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: /usr/local/include/uv/unix.h
+core/network/CMakeFiles/network.dir/ConnectionElement.cc.o: /usr/local/include/uv/version.h
 
 core/network/CMakeFiles/network.dir/ConnectorService.cpp.o: ../core/network/ConnectorService.cpp
 core/network/CMakeFiles/network.dir/ConnectorService.cpp.o: ../core/network/ConnectorService.h
@@ -38,11 +44,17 @@ core/network/CMakeFiles/network.dir/EventLoop.cc.o: ../core/network/ArrayBuffer.
 core/network/CMakeFiles/network.dir/EventLoop.cc.o: ../core/network/Async.h
 core/network/CMakeFiles/network.dir/EventLoop.cc.o: ../core/network/EventLoop.cc
 core/network/CMakeFiles/network.dir/EventLoop.cc.o: ../core/network/EventLoop.h
+core/network/CMakeFiles/network.dir/EventLoop.cc.o: ../core/network/IPacketBuffer.h
 core/network/CMakeFiles/network.dir/EventLoop.cc.o: ../core/network/ListBuffer.h
 core/network/CMakeFiles/network.dir/EventLoop.cc.o: ../core/network/Packet.h
-core/network/CMakeFiles/network.dir/EventLoop.cc.o: ../core/network/PacketBuffer.h
 core/network/CMakeFiles/network.dir/EventLoop.cc.o: ../core/network/TcpConnection.h
 core/network/CMakeFiles/network.dir/EventLoop.cc.o: ../core/util/interface.h
+core/network/CMakeFiles/network.dir/EventLoop.cc.o: /usr/local/include/uv.h
+core/network/CMakeFiles/network.dir/EventLoop.cc.o: /usr/local/include/uv/errno.h
+core/network/CMakeFiles/network.dir/EventLoop.cc.o: /usr/local/include/uv/linux.h
+core/network/CMakeFiles/network.dir/EventLoop.cc.o: /usr/local/include/uv/threadpool.h
+core/network/CMakeFiles/network.dir/EventLoop.cc.o: /usr/local/include/uv/unix.h
+core/network/CMakeFiles/network.dir/EventLoop.cc.o: /usr/local/include/uv/version.h
 
 core/network/CMakeFiles/network.dir/ListBuffer.cc.o: ../core/network/ListBuffer.cc
 core/network/CMakeFiles/network.dir/ListBuffer.cc.o: ../core/network/ListBuffer.h
@@ -53,27 +65,41 @@ core/network/CMakeFiles/network.dir/Packet.cc.o: ../core/network/Packet.h
 core/network/CMakeFiles/network.dir/SocketAddr.cc.o: ../define/uv_define.h
 core/network/CMakeFiles/network.dir/SocketAddr.cc.o: ../core/network/SocketAddr.cc
 core/network/CMakeFiles/network.dir/SocketAddr.cc.o: ../core/network/SocketAddr.h
+core/network/CMakeFiles/network.dir/SocketAddr.cc.o: /usr/local/include/uv.h
+core/network/CMakeFiles/network.dir/SocketAddr.cc.o: /usr/local/include/uv/errno.h
+core/network/CMakeFiles/network.dir/SocketAddr.cc.o: /usr/local/include/uv/linux.h
+core/network/CMakeFiles/network.dir/SocketAddr.cc.o: /usr/local/include/uv/threadpool.h
+core/network/CMakeFiles/network.dir/SocketAddr.cc.o: /usr/local/include/uv/unix.h
+core/network/CMakeFiles/network.dir/SocketAddr.cc.o: /usr/local/include/uv/version.h
 
 core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: ../core/network/../log/ILog.h
 core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: ../core/network/../log/Log.h
+core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: ../core/network/../log/LogLevel.h
 core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: ../core/network/../util/interface.h
 core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: ../define/uv_define.h
 core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: ../core/network/EventLoop.h
 core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: ../core/network/SocketAddr.h
 core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: ../core/network/TcpAcceptor.cc
 core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: ../core/network/TcpAcceptor.h
+core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: /usr/local/include/uv.h
+core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: /usr/local/include/uv/errno.h
+core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: /usr/local/include/uv/linux.h
+core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: /usr/local/include/uv/threadpool.h
+core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: /usr/local/include/uv/unix.h
+core/network/CMakeFiles/network.dir/TcpAcceptor.cc.o: /usr/local/include/uv/version.h
 
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/../log/ILog.h
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/../log/Log.h
+core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/../log/LogLevel.h
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/../util/interface.h
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../define/uv_define.h
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/ArrayBuffer.h
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/Async.h
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/ConnectionElement.h
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/EventLoop.h
+core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/IPacketBuffer.h
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/ListBuffer.h
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/Packet.h
-core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/PacketBuffer.h
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/SocketAddr.h
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/TcpAcceptor.h
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/TcpConnection.cc
@@ -82,17 +108,24 @@ core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/TcpServe
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/Timer.h
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/network/TimerWheel.h
 core/network/CMakeFiles/network.dir/TcpConnection.cc.o: ../core/util/abstract.h
+core/network/CMakeFiles/network.dir/TcpConnection.cc.o: /usr/local/include/uv.h
+core/network/CMakeFiles/network.dir/TcpConnection.cc.o: /usr/local/include/uv/errno.h
+core/network/CMakeFiles/network.dir/TcpConnection.cc.o: /usr/local/include/uv/linux.h
+core/network/CMakeFiles/network.dir/TcpConnection.cc.o: /usr/local/include/uv/threadpool.h
+core/network/CMakeFiles/network.dir/TcpConnection.cc.o: /usr/local/include/uv/unix.h
+core/network/CMakeFiles/network.dir/TcpConnection.cc.o: /usr/local/include/uv/version.h
 
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/../log/ILog.h
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/../log/Log.h
+core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/../log/LogLevel.h
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/../util/interface.h
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../define/uv_define.h
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/ArrayBuffer.h
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/ConnectionElement.h
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/EventLoop.h
+core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/IPacketBuffer.h
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/ListBuffer.h
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/Packet.h
-core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/PacketBuffer.h
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/SocketAddr.h
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/TcpAcceptor.h
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/TcpConnection.h
@@ -101,17 +134,29 @@ core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/TcpServer.h
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/Timer.h
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/network/TimerWheel.h
 core/network/CMakeFiles/network.dir/TcpServer.cc.o: ../core/util/abstract.h
+core/network/CMakeFiles/network.dir/TcpServer.cc.o: /usr/local/include/uv.h
+core/network/CMakeFiles/network.dir/TcpServer.cc.o: /usr/local/include/uv/errno.h
+core/network/CMakeFiles/network.dir/TcpServer.cc.o: /usr/local/include/uv/linux.h
+core/network/CMakeFiles/network.dir/TcpServer.cc.o: /usr/local/include/uv/threadpool.h
+core/network/CMakeFiles/network.dir/TcpServer.cc.o: /usr/local/include/uv/unix.h
+core/network/CMakeFiles/network.dir/TcpServer.cc.o: /usr/local/include/uv/version.h
 
 core/network/CMakeFiles/network.dir/TimerWheel.cc.o: ../define/uv_define.h
 core/network/CMakeFiles/network.dir/TimerWheel.cc.o: ../core/network/ArrayBuffer.h
 core/network/CMakeFiles/network.dir/TimerWheel.cc.o: ../core/network/ConnectionElement.h
 core/network/CMakeFiles/network.dir/TimerWheel.cc.o: ../core/network/EventLoop.h
+core/network/CMakeFiles/network.dir/TimerWheel.cc.o: ../core/network/IPacketBuffer.h
 core/network/CMakeFiles/network.dir/TimerWheel.cc.o: ../core/network/ListBuffer.h
 core/network/CMakeFiles/network.dir/TimerWheel.cc.o: ../core/network/Packet.h
-core/network/CMakeFiles/network.dir/TimerWheel.cc.o: ../core/network/PacketBuffer.h
 core/network/CMakeFiles/network.dir/TimerWheel.cc.o: ../core/network/TcpConnection.h
 core/network/CMakeFiles/network.dir/TimerWheel.cc.o: ../core/network/Timer.h
 core/network/CMakeFiles/network.dir/TimerWheel.cc.o: ../core/network/TimerWheel.cc
 core/network/CMakeFiles/network.dir/TimerWheel.cc.o: ../core/network/TimerWheel.h
 core/network/CMakeFiles/network.dir/TimerWheel.cc.o: ../core/util/interface.h
+core/network/CMakeFiles/network.dir/TimerWheel.cc.o: /usr/local/include/uv.h
+core/network/CMakeFiles/network.dir/TimerWheel.cc.o: /usr/local/include/uv/errno.h
+core/network/CMakeFiles/network.dir/TimerWheel.cc.o: /usr/local/include/uv/linux.h
+core/network/CMakeFiles/network.dir/TimerWheel.cc.o: /usr/local/include/uv/threadpool.h
+core/network/CMakeFiles/network.dir/TimerWheel.cc.o: /usr/local/include/uv/unix.h
+core/network/CMakeFiles/network.dir/TimerWheel.cc.o: /usr/local/include/uv/version.h
 

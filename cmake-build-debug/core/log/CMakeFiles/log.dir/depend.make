@@ -4,5 +4,6 @@
 core/log/CMakeFiles/log.dir/Log.cc.o: ../core/log/ILog.h
 core/log/CMakeFiles/log.dir/Log.cc.o: ../core/log/Log.cc
 core/log/CMakeFiles/log.dir/Log.cc.o: ../core/log/Log.h
+core/log/CMakeFiles/log.dir/Log.cc.o: ../core/log/LogLevel.h
 core/log/CMakeFiles/log.dir/Log.cc.o: ../core/util/interface.h
 

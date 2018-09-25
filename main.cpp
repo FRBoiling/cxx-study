@@ -63,7 +63,6 @@ int main() {
     server.start();
 #endif
 
-
     //client对象
 #if  TEST_CLIENT
 #if    TEST_IPV6
@@ -75,7 +74,6 @@ int main() {
     client.connectToServer(addr2);
 #endif
 
-
     //loop线程中异步执行函数
 #if  TEST_ASYNC
     Async<int> *handle = new Async<int>(loop,
@@ -86,7 +84,6 @@ int main() {
                                         1024);
     handle->runInLoop();
 #endif
-
 
     //定时器测试
 #if  TEST_TIMER
@@ -114,11 +111,12 @@ int main() {
     auto log = boil::Log::Instance();
     log->registerInterface(new Logger);
 
-    log->debug("debug message");
-    log->warn("warn message");
-    log->error("error message");
-    log->info("info message");
+//    log->debug("debug message");
+//    log->warn("warn message");
+//    log->error("error message");
+//    log->info("info message");
 #endif
+    log->info("ready to run");
     loop->run();
     return 0;
 }

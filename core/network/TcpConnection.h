@@ -2,8 +2,8 @@
 // Created by boil on 18-9-13.
 //
 
-#ifndef BOIL_TCPCONNECTION_H
-#define BOIL_TCPCONNECTION_H
+#ifndef BOIL_TCP_CONNECTION_H
+#define BOIL_TCP_CONNECTION_H
 
 #define  USE_CYCLE_BUFFER     1
 
@@ -68,7 +68,7 @@ namespace boil {
 
         std::weak_ptr<ConnectionElement> Element();
 
-        static void onMesageReceive(uv_stream_t *client, ssize_t nread, const uv_buf_t *buf);
+        static void onMessageReceive(uv_stream_t *client, ssize_t readsize, const uv_buf_t *buf);
 
         void setMessageCallback(OnMessageCallback callback);
 
@@ -110,4 +110,4 @@ namespace boil {
 
 }
 
-#endif //BOIL_TCPCONNECTION_H
+#endif //BOIL_TCP_CONNECTION_H

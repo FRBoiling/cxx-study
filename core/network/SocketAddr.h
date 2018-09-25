@@ -2,15 +2,14 @@
 // Created by boil on 18-9-13.
 //
 
-#ifndef BOIL_STUDY_SOCKETADDR_H
-#define BOIL_STUDY_SOCKETADDR_H
+#ifndef BOIL_SOCKETADDR_H
+#define BOIL_SOCKETADDR_H
 
 
 #include <string>
 #include "uv_define.h"
 
 namespace boil {
-
 
     class SocketAddr {
     public:
@@ -89,4 +88,4 @@ namespace boil {
 
 }
 
-#endif //BOIL_STUDY_SOCKETADDR_H
+#endif //BOIL_SOCKETADDR_H

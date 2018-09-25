@@ -25,7 +25,7 @@ void TcpAcceptor::listen() {
                 {
                     if (status < 0)
                     {
-                        Log::Instance()->error (std::string("New connection error :")+ EventLoop::GetErrorMessage(status));
+                        Log::Instance()->error (std::string("new connection error :")+ EventLoop::GetErrorMessage(status));
                         return;
                     }
                     TcpAcceptor* accept = static_cast<TcpAcceptor*>(server->data);
@@ -49,7 +49,7 @@ bool TcpAcceptor::isListen() {
     return listened_;
 }
 
-void TcpAcceptor::setNewConnectinonCallback(NewConnectionCallback callback) {
+void TcpAcceptor::setNewConnectionCallback(NewConnectionCallback callback) {
     callback_ = callback;
 }
 

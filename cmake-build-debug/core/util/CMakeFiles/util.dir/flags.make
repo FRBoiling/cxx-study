@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/boil/CLionProjects/boil/cmake-build-debug -I/home/boil/CLionProjects/boil/define -I/home/boil/CLionProjects/boil/zmalloc -I/home/boil/CLionProjects/boil/cmake-build-debug/core 
+CXX_INCLUDES = -I/home/boil/CLionProjects/boil/cmake-build-debug -I/usr/local/include -I/home/boil/CLionProjects/boil/define -I/home/boil/CLionProjects/boil/zmalloc -I/home/boil/CLionProjects/boil/cmake-build-debug/core -I/home/boil/CLionProjects/boil/core/util/../log 
 

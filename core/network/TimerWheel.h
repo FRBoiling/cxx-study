@@ -2,8 +2,8 @@
 // Created by boil on 18-9-13.
 //
 
-#ifndef BOIL_TIMERWHEEL_H
-#define BOIL_TIMERWHEEL_H
+#ifndef BOIL_TIMER_WHEEL_H
+#define BOIL_TIMER_WHEEL_H
 
 #include <set>
 #include <vector>
@@ -40,4 +40,4 @@ namespace boil {
 
 }
 
-#endif //BOIL_TIMERWHEEL_H
+#endif //BOIL_TIMER_WHEEL_H

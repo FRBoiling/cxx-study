@@ -47,7 +47,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../demo/uv_tee/CMakeLists.txt"
   "../main_config.h.in"
   "../zmalloc/CMakeLists.txt"
-  "../zmalloc/zmalloc_config.h.in"
   )
 
 # The corresponding makefile is:

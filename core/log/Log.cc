@@ -4,26 +4,32 @@
 
 #include "Log.h"
 
+
 using namespace boil;
+
+__thread char t_errnobuf[512];
+const char *strerror_tl(int savedErrno) {
+    return strerror_r(savedErrno, t_errnobuf, sizeof t_errnobuf);
+}
 
 void Log::registerInterface(ILog* handle)
 {
     handle_ = handle;
-    funcs_[Debug] = std::bind(&ILog::debug, handle_, std::placeholders::_1);
-    funcs_[Info] = std::bind(&ILog::info, handle_, std::placeholders::_1);
-    funcs_[Warn] = std::bind(&ILog::warn, handle_, std::placeholders::_1);
-    funcs_[Error] = std::bind(&ILog::error, handle_, std::placeholders::_1);
+    funcs_[DEBUG] = std::bind(&ILog::debug, handle_, std::placeholders::_1);
+    funcs_[INFO] = std::bind(&ILog::info, handle_, std::placeholders::_1);
+    funcs_[WARN] = std::bind(&ILog::warn, handle_, std::placeholders::_1);
+    funcs_[ERROR] = std::bind(&ILog::error, handle_, std::placeholders::_1);
 }
 void Log::write(int level,std::string& data)
 {
-    if ((handle_) &&(level<= Error) && (level >= Debug))
+    if ((handle_) &&(level<= ERROR) && (level >= DEBUG))
     {
         funcs_[level](data);
     }
 }
 void Log::write(int level, std::string&& data)
 {
-    if ((handle_) && (level <= Error))
+    if ((handle_) && (level <= ERROR))
     {
         funcs_[level](data);
     }

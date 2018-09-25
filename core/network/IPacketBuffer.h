@@ -2,8 +2,8 @@
 // Created by boil on 18-9-17.
 //
 
-#ifndef BOIL_PACKETBUFFER_H
-#define BOIL_PACKETBUFFER_H
+#ifndef BOIL_I_PACKET_BUFFER_H
+#define BOIL_I_PACKET_BUFFER_H
 
 #include "Packet.h"
 #include "../util/interface.h"
@@ -20,4 +20,4 @@ public:
 }
 
 
-#endif //BOIL_PACKETBUFFER_H
+#endif //BOIL_I_PACKET_BUFFER_H
