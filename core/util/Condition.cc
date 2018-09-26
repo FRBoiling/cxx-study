@@ -5,8 +5,10 @@
 #include "Condition.h"
 #include <errno.h>
 
+using namespace boil;
+
 // returns true if time out, false otherwise.
-bool boil::Condition::waitForSeconds(double seconds)
+bool Condition::waitForSeconds(double seconds)
 {
     struct timespec abstime;
     // FIXME: use CLOCK_MONOTONIC or CLOCK_MONOTONIC_RAW to prevent time rewind.
