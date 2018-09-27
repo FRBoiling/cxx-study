@@ -10,7 +10,7 @@
 #include <boost/scoped_ptr.hpp>
 #include "../util/Types.h"
 #include "../util/FileUtil.h"
-#include "../util/Mutex.h"
+#include "../util/MutexLockGuard.h"
 
 namespace boil {
 

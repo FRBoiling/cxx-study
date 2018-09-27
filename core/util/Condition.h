@@ -6,10 +6,10 @@
 #define BOIL_CONDITION_H
 
 
-#include "Mutex.h"
-
 #include <boost/noncopyable.hpp>
 #include <pthread.h>
+
+#include "MutexLockGuard.h"
 
 namespace boil
 {

@@ -12,6 +12,8 @@
 #include <functional>
 #include <pthread.h>
 
+#include <atomic>
+
 namespace boil
 {
     class Thread : boost::noncopyable
@@ -33,7 +35,7 @@ namespace boil
         pid_t tid() const { return tid_; }
         const string& name() const { return name_; }
 
-        static int numCreated() { return numCreated_.get(); }
+        static int numCreated() { return numCreated_; }
 
     private:
         void setDefaultName();
@@ -46,7 +48,7 @@ namespace boil
         string     name_;
         CountDownLatch latch_;
 
-        static AtomicInt32 numCreated_;
+        static std::atomic<int>  numCreated_;
     };
 
 }

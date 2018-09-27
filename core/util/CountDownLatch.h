@@ -6,8 +6,9 @@
 #define BOIL_COUNTDOWNLATCH_H
 
 
-#include "Mutex.h"
 #include <boost/noncopyable.hpp>
+#include "MutexLockGuard.h"
+#include "Condition.h"
 
 namespace boil
 {

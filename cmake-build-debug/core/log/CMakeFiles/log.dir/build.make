@@ -70,17 +70,32 @@ core/log/CMakeFiles/log.dir/Log.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/log.dir/Log.cc.s"
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/log && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boil/CLionProjects/boil/core/log/Log.cc -o CMakeFiles/log.dir/Log.cc.s
 
+core/log/CMakeFiles/log.dir/LogFile.cc.o: core/log/CMakeFiles/log.dir/flags.make
+core/log/CMakeFiles/log.dir/LogFile.cc.o: ../core/log/LogFile.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object core/log/CMakeFiles/log.dir/LogFile.cc.o"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/log && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/log.dir/LogFile.cc.o -c /home/boil/CLionProjects/boil/core/log/LogFile.cc
+
+core/log/CMakeFiles/log.dir/LogFile.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/log.dir/LogFile.cc.i"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/log && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boil/CLionProjects/boil/core/log/LogFile.cc > CMakeFiles/log.dir/LogFile.cc.i
+
+core/log/CMakeFiles/log.dir/LogFile.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/log.dir/LogFile.cc.s"
+	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/log && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boil/CLionProjects/boil/core/log/LogFile.cc -o CMakeFiles/log.dir/LogFile.cc.s
+
 # Object files for target log
 log_OBJECTS = \
-"CMakeFiles/log.dir/Log.cc.o"
+"CMakeFiles/log.dir/Log.cc.o" \
+"CMakeFiles/log.dir/LogFile.cc.o"
 
 # External object files for target log
 log_EXTERNAL_OBJECTS =
 
 core/log/liblog.a: core/log/CMakeFiles/log.dir/Log.cc.o
+core/log/liblog.a: core/log/CMakeFiles/log.dir/LogFile.cc.o
 core/log/liblog.a: core/log/CMakeFiles/log.dir/build.make
 core/log/liblog.a: core/log/CMakeFiles/log.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblog.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/boil/CLionProjects/boil/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library liblog.a"
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/log && $(CMAKE_COMMAND) -P CMakeFiles/log.dir/cmake_clean_target.cmake
 	cd /home/boil/CLionProjects/boil/cmake-build-debug/core/log && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/log.dir/link.txt --verbose=$(VERBOSE)
 

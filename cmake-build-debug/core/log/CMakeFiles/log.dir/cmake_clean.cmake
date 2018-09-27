@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/log.dir/Log.cc.o"
+  "CMakeFiles/log.dir/LogFile.cc.o"
   "liblog.pdb"
   "liblog.a"
 )

@@ -4,6 +4,8 @@
 
 #include "LogFile.h"
 
+#include "ProcessInfo.h"
+
 using namespace boil;
 
 LogFile::LogFile(const string& basename,

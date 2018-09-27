@@ -152,6 +152,33 @@ Log.cc.s:
 	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/log/CMakeFiles/log.dir/build.make core/log/CMakeFiles/log.dir/Log.cc.s
 .PHONY : Log.cc.s
 
+LogFile.o: LogFile.cc.o
+
+.PHONY : LogFile.o
+
+# target to build an object file
+LogFile.cc.o:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/log/CMakeFiles/log.dir/build.make core/log/CMakeFiles/log.dir/LogFile.cc.o
+.PHONY : LogFile.cc.o
+
+LogFile.i: LogFile.cc.i
+
+.PHONY : LogFile.i
+
+# target to preprocess a source file
+LogFile.cc.i:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/log/CMakeFiles/log.dir/build.make core/log/CMakeFiles/log.dir/LogFile.cc.i
+.PHONY : LogFile.cc.i
+
+LogFile.s: LogFile.cc.s
+
+.PHONY : LogFile.s
+
+# target to generate assembly for a file
+LogFile.cc.s:
+	cd /home/boil/CLionProjects/boil/cmake-build-debug && $(MAKE) -f core/log/CMakeFiles/log.dir/build.make core/log/CMakeFiles/log.dir/LogFile.cc.s
+.PHONY : LogFile.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,6 +191,9 @@ help:
 	@echo "... Log.o"
 	@echo "... Log.i"
 	@echo "... Log.s"
+	@echo "... LogFile.o"
+	@echo "... LogFile.i"
+	@echo "... LogFile.s"
 .PHONY : help
 
 

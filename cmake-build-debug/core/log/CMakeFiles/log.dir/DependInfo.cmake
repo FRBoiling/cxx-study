@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/boil/CLionProjects/boil/core/log/Log.cc" "/home/boil/CLionProjects/boil/cmake-build-debug/core/log/CMakeFiles/log.dir/Log.cc.o"
+  "/home/boil/CLionProjects/boil/core/log/LogFile.cc" "/home/boil/CLionProjects/boil/cmake-build-debug/core/log/CMakeFiles/log.dir/LogFile.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

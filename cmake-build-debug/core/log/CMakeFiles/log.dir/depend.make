@@ -7,3 +7,17 @@ core/log/CMakeFiles/log.dir/Log.cc.o: ../core/log/Log.h
 core/log/CMakeFiles/log.dir/Log.cc.o: ../core/log/LogLevel.h
 core/log/CMakeFiles/log.dir/Log.cc.o: ../core/util/interface.h
 
+core/log/CMakeFiles/log.dir/LogFile.cc.o: ../core/log/../util/ProcessInfo.h
+core/log/CMakeFiles/log.dir/LogFile.cc.o: ../core/log/../util/StringPiece.h
+core/log/CMakeFiles/log.dir/LogFile.cc.o: ../core/log/../util/Timestamp.h
+core/log/CMakeFiles/log.dir/LogFile.cc.o: ../core/log/../util/Types.h
+core/log/CMakeFiles/log.dir/LogFile.cc.o: ../core/log/../util/copyable.h
+core/log/CMakeFiles/log.dir/LogFile.cc.o: ../core/log/LogFile.cc
+core/log/CMakeFiles/log.dir/LogFile.cc.o: ../core/log/LogFile.h
+core/log/CMakeFiles/log.dir/LogFile.cc.o: ../core/util/CurrentThread.h
+core/log/CMakeFiles/log.dir/LogFile.cc.o: ../core/util/FileUtil.h
+core/log/CMakeFiles/log.dir/LogFile.cc.o: ../core/util/Mutex.h
+core/log/CMakeFiles/log.dir/LogFile.cc.o: ../core/util/MutexLock.h
+core/log/CMakeFiles/log.dir/LogFile.cc.o: ../core/util/MutexLockGuard.h
+core/log/CMakeFiles/log.dir/LogFile.cc.o: ../core/util/Types.h
+
