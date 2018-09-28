@@ -3,6 +3,7 @@
 //
 #include "FileUtil.h"
 #include <sys/stat.h>
+#include <assert.h>
 #include <fcntl.h>
 #include "Log.h"
 

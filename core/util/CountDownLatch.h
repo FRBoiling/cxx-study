@@ -5,7 +5,6 @@
 #ifndef BOIL_COUNTDOWNLATCH_H
 #define BOIL_COUNTDOWNLATCH_H
 
-
 #include <boost/noncopyable.hpp>
 #include "MutexLockGuard.h"
 #include "Condition.h"
